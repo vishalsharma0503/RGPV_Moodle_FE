@@ -3,14 +3,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
   faFacebook,
-  faInternetExplorer,
+  faTumblr,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import "./Social.css";
 
 export default function Social() {
   return (
-    <div className="social-container">
+    <div className="social-container" style={{display:"flex", textAlign:"right", justifyContent:"flex-end"}}>
       <a
         href="http://linkedin.com/in/mitrasonu/"
         className="twitter social"
@@ -24,7 +24,7 @@ export default function Social() {
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>
       <a href="http://iteindia.in/" className="youtube social">
-        <FontAwesomeIcon icon={faInternetExplorer} size="2x" />
+        <FontAwesomeIcon icon={faTumblr} size="2x" />
       </a>
     </div>
   );
