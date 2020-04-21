@@ -13,6 +13,8 @@ export default class Footer extends Component {
         bg="dark"
         variant="dark"
         style={{
+          display: "flex",
+          justifyContent: "center",
           position: "fixed",
           left: "0px",
           bottom: "0px",
@@ -22,19 +24,11 @@ export default class Footer extends Component {
       >
         {" "}
         <Row>
-          <Col>
-            Contact Us RGPV, Airport Bypass
-            Road, Gandhi Nagar, Bhopal, Madhya Pradesh -462033 0755 - 2734913,<br/>
-            Fax No. : 0755 - 2742006 egov@rgtu.net
-          </Col>
-          <Col style={{textAlign:"center"}}>
+          <Col style={{textAlign:"center",}}>
             Powered by ITE BHOPAL{" "}
             <a href="https://www.iteindia.in/">iteindia.in</a>
             <br />
             for any technical support sonulodha@iteindia.in
-          </Col>
-          <Col>
-            <Social style={{ position: "absolute" }} />
           </Col>
         </Row>
       </Navbar>

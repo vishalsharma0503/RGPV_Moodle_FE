@@ -4,7 +4,7 @@ import logo from "../Images/logoUIT.jpg"
 export default class Header extends Component {
   render() {
     return (
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" style={{height:"100px"}}>
         <Navbar.Brand href="https://www.rgpv.ac.in/">
           <img
             alt=""
@@ -13,7 +13,7 @@ export default class Header extends Component {
             height="30"
             className="d-inline-block align-top"
           />{" "}
-          RGPV
+          <b>RGPV</b>
         </Navbar.Brand>
       </Navbar>
     );
